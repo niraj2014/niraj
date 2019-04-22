@@ -390,7 +390,7 @@ section:last-child {
 	margin-bottom: 3px;
 }
 
-@media all and (min-width: 802px) and (max-width: 900px) {
+@media all and (min-width: 602px) and (max-width: 800px) {
 	#headshot {
 		display: none;
 	}
@@ -402,7 +402,7 @@ section:last-child {
 	}
 }
 
-@media all and (max-width: 901px) {
+@media all and (max-width: 601px) {
 	#cv {
 		width: 95%;
 		margin: 10px auto;
@@ -436,7 +436,7 @@ section:last-child {
 	}
 }
 
-@media all and (max-width: 980px) {
+@media all and (max-width: 480px) {
 	.mainDetails {
 		padding: 15px 15px;
 	}
