@@ -405,11 +405,11 @@ section:last-child {
         body {width: 100%}
 }
 
-@media all and (max-width: 601px) {
+@media all and (max-width: 900px) {
 	#cv {
 		width: 95%;
 		margin: 10px auto;
-		min-width: 280px;
+		min-width: 900px;
 	}
 	body {width: 100%}
 	
