@@ -402,7 +402,7 @@ section:last-child {
 	}
 }
 
-@media all and (max-width: 601px) {
+@media all and (max-width: 901px) {
 	#cv {
 		width: 95%;
 		margin: 10px auto;
