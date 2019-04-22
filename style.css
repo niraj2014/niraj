@@ -428,6 +428,16 @@ section:last-child {
 		float: none;
 		width: 100%;
 	}
+        #experience {
+    width:115px;
+    height: 15px;
+    margin-top:2px;
+    margin-left:-1px;
+    background:#f4f3f3;
+    color: blue;
+    position: absolute;
+
+}
 	
 	.sectionTitle {
 		margin-left: -2px;
