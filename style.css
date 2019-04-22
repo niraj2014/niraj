@@ -405,14 +405,14 @@ section:last-child {
         body {width: 100%}
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 800px) {
 	#cv {
 		width: 95%;
 		margin: 10px auto;
-		min-width: 900px;
+		min-width: 600px;
 	}
 	
-        body {width: 100%}
+        
 	
 	#headshot {
 		display: none;
@@ -450,7 +450,7 @@ section:last-child {
 		padding: 15px 0 0;
 	}
 
-	body {width: 100%}
+	
 	
 	#mainArea {
 		padding: 0 25px;
