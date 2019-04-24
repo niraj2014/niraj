@@ -393,9 +393,9 @@ section:last-child {
 }
 
 @media all and (min-width: 602px) and (max-width: 800px) {
-	#headshot {
+	/*#headshot {
 		display: none;
-	}
+	}*/
 	
 	.keySkills {
 	-moz-column-count:2;
@@ -414,9 +414,9 @@ section:last-child {
 	
         
 	
-	#headshot {
+	/*#headshot {
 		display: none;
-	}
+	}*/
 	
 	#name, #contactDetails {
 		float: none;
@@ -480,9 +480,33 @@ section:last-child {
 }
 
 @media print {
-    #cv {
+    body {
         width: 100%;
+	
     }
+   #about {
+	background-color: white !important;
+        -webkit-print-color-adjust: exact; 
+   }
+   #education {
+	
+	background-color: white !important;
+        -webkit-print-color-adjust: exact; 
+}
+  #workarea{
+	background-color: white !important;
+        -webkit-print-color-adjust: exact; 
+}
+  #skill{
+	background-color: white !important;
+        -webkit-print-color-adjust: exact; 
+}
+  #skillarea1{
+	background-color: white !important;
+        -webkit-print-color-adjust: exact; 
+}
+ 
+   
 }
 
 @-webkit-keyframes reset {
