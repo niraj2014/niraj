@@ -186,6 +186,15 @@ p {
 
 }
 
+#address{
+	margin-left: 10px; margin-top: -10px; width:181px; position:absolute; color: black; background: #f4f3f3
+
+}
+
+#exptext{
+	margin-left: 10px; margin-top: -10px; width:122px; position:absolute; background: #f4f3f3;
+}
+
 #linkedurl{
 	width:115px;
     height: 15px;
@@ -505,6 +514,25 @@ section:last-child {
 	background-color: white !important;
         -webkit-print-color-adjust: exact; 
 }
+
+  .glyphicon, .circle-icon {
+        
+	background-color: #3b78f9 !important;
+        -webkit-print-color-adjust: exact;
+        color: white !important;
+        -webkit-print-color-adjust: exact;
+
+}
+
+ #linkedurl{ margin-left: -80px}
+ #experience{margin-left: -65px}
+ #email{margin-left: -65px}
+ #website{margin-left: -65px}
+ #living{margin-left: 160px}
+ #mobnumber{margin-left: 160px}
+ #experience-text{margin-left: -20px}
+ #address{margin-left: -20px}
+ #workarea{width: 160px; background: #f4f3f3}
  
    
 }
